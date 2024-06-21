@@ -6,11 +6,11 @@ sidebar_proofs:
   - title: Circles
     children:
       - title: "Circle Proof"
-        url: proofs/circle
+        url: proofs/circles1
       - title: "Circle Proof 2"
-        url: proofs/circle2
+        url: proofs/circles2
     children:
       - title: "Circle Proof"
-        url: proofs/circle
+        url: proofs/circles1
       - title: "Circle Proof 2"
-        url: proofs/circle2
+        url: proofs/circles2
