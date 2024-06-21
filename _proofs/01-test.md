@@ -1,9 +1,8 @@
 ---
 title:  "Proof of circles"
 date: 2024-6-26 17:22:24 +0800
-permalink: /proofs/circle/
-layout: proof
-categories: 
+categories: circle
+permalink: proofs/circles1
 ---
 
 
@@ -16,3 +15,8 @@ $$
 $$
 
 Nam volutpat porta aliquet. Vivamus gravida pulvinar eros, ac cursus tellus tincidunt a. Donec nec consequat orci, vitae sagittis ipsum. Cras et sem mauris. Donec ultricies ut mi sit amet lacinia. Vestibulum elementum nulla ipsum, eu rutrum arcu ultrices nec. Sed sodales blandit mi. Donec mollis suscipit quam, eu ultricies erat viverra sit amet. Sed ut felis nec diam consequat mollis. Suspendisse vehicula fermentum dui, ut feugiat odio placerat vitae. Nullam venenatis odio quis ullamcorper hendrerit. Ut ut purus viverra, porta ipsum ut, tempor purus. Aenean ornare cursus erat in consequat. Mauris dapibus elementum neque, quis bibendum velit bibendum finibus. Nam et tortor nec velit molestie mollis a sit amet leo. Curabitur pharetra accumsan tortor.
+
+## I like trains
+$$
+e^{i\theta} = \cos \theta + i\sin \theta
+$$
