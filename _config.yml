@@ -50,11 +50,12 @@ include:
 defaults:
   #_proofs
   - scope:
-      path: ""
-      type: proof
+      path: "_proofs"
     values:
       sidebar:
-        nav: "proofs"
+        nav: "sidebar_proofs"
+      toc: true
+      layout: layout_proofs
 
 collections:
   proofs:

@@ -1,11 +1,14 @@
 main:
-  - title: "Posts"
-    url: /posts/
   - title: "Proofs"
     url: /proofs/
 
-proofs:
+sidebar_proofs:
   - title: Circles
+    children:
+      - title: "Circle Proof"
+        url: proofs/circle
+      - title: "Circle Proof 2"
+        url: proofs/circle2
     children:
       - title: "Circle Proof"
         url: proofs/circle
