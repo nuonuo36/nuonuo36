@@ -31,6 +31,10 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+include:
+  - _pages
+  - _proofs
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -42,3 +46,16 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  #_proofs
+  - scope:
+      path: ""
+      type: proof
+    values:
+      sidebar:
+        nav: "proofs"
+
+collections:
+  proofs:
+    output: true

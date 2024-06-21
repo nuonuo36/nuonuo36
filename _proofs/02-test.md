@@ -1,13 +1,13 @@
 ---
-layout: post
-title:  "Proof of circles"
-date:   2021-05-26 17:22:24 +0800
+title:  "Second proof of circles"
+date: 2024-6-27 17:22:24 +0800
+permalink: /proofs/circle2/
+layout: proof
 categories: 
 ---
 
-# Hello, I am a Markdown page
 
-## Proof 1
+## Proof 2
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in leo et metus egestas porta eu feugiat ligula. Donec suscipit nunc in elit gravida, vitae consectetur purus volutpat. Fusce neque neque, pharetra ut bibendum vestibulum, consequat pulvinar nibh. Sed nec porta tellus, sed interdum arcu. Pellentesque nulla justo, ornare id porttitor quis, aliquet id metus. In hendrerit lectus ut tempor interdum. Quisque vehicula semper orci sit amet scelerisque. Donec eget consequat augue. Maecenas scelerisque hendrerit enim. Nullam hendrerit erat sed fringilla tristique. Quisque iaculis a erat quis iaculis. Donec mi tortor, ullamcorper vel luctus vitae, viverra sed nisi. Pellentesque quis leo eu tellus ultrices blandit id eget lorem. In nunc est, placerat id dictum et, condimentum non dolor.
 
 $$
