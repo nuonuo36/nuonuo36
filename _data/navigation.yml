@@ -9,8 +9,3 @@ sidebar_proofs:
         url: proofs/circles1
       - title: "Circle Proof 2"
         url: proofs/circles2
-    children:
-      - title: "Circle Proof"
-        url: proofs/circles1
-      - title: "Circle Proof 2"
-        url: proofs/circles2
