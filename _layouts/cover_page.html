@@ -41,6 +41,20 @@
 <body id="page-top">
   {% include nav.html %}
   {% include header.html %}
+    <form method="get" action="http://www.google.com/search" target="_blank">
+        <input type="hidden" name="sitesearch" value="ibkc-carrosserie.nl" />
+        <input type="text" name="q" maxlength="255" placeholder="Search with Google" />
+    </form>
+    <form name="searchForm" class="search" method="get" action="https://duckduckgo.com" onsubmit="return duckFix();">
+        <input type="hidden" name="kam" value="osm">
+        <input type="text" name="q" placeholder="duck search" value='"cregox" site:cregox.net'>
+        <input type="submit" value="🔎">
+    </form>
+    <div class="search">
+        <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search" /></p>
+        </form>
+    </div>
   {% include call-to-action.html %}
   {% include services.html %}
   {% include portfolio.html %}
