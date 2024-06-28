@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: SNOOFS
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -35,6 +35,10 @@ include:
   - _pages
   - _proofs
 
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -46,6 +50,8 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
 
 defaults:
   #_proofs
@@ -60,3 +66,4 @@ defaults:
 collections:
   proofs:
     output: true
+    permalink: /:collection/:title/
