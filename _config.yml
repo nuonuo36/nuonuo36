@@ -48,15 +48,14 @@ include:
 #   - vendor/ruby/
 
 defaults:
-  #_proofs
   - scope:
-      path: "_proofs"
+      path: "_proofs"  #every md in folder _proofs has the following traits
     values:
       sidebar:
         nav: "sidebar_proofs"
       toc: true
-      layout: layout_proofs
+      layout: layout_proofs #every html in folder _layouts is a layout
 
 collections:
-  proofs:
+  proofs: #makes a collection called
     output: true
