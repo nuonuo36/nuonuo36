@@ -49,13 +49,15 @@ include:
 
 defaults:
   - scope:
-      path: "_proofs"  #every md in folder _proofs has the following traits
+      path: "_geometry" 
+      path: "_trignometry"
+      path: "number#every md in folder *orange* has the following traits
     values:
       sidebar:
         nav: "sidebar_proofs"
       toc: true
-      layout: layout_proofs #every html in folder _layouts is a layout
+      layout: layout_proofs #every html in folder *orange is a layout
 
 collections:
-  proofs: #makes a collection called
+  proofs: #makes a collection called proofs
     output: true
