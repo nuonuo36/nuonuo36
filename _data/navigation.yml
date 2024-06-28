@@ -1,6 +1,6 @@
 main:
-  - title: "Proofs"
-    url: /proofs/
+  - title: "Proofs" #press on "Proofs,"
+    url: /proofs/ #goes to that url
 
 sidebar_proofs:
   - title: Circles
