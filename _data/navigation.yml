@@ -1,11 +1,25 @@
 main:
-  - title: "Proofs" #press on "Proofs,"
-    url: /proofs/ #goes to that url
+  - title: "Geometry" #press on "Geometry,"
+    url: /geometry/ #goes to that url
 
 sidebar_proofs:
-  - title: Circles
+  - title: Geometry
     children:
-      - title: "Circle Proof"
-        url: proofs/circles1
-      - title: "Circle Proof 2"
-        url: proofs/circles2
+      - title: "Ceva's Theorem"
+        url: geometry/ceva
+      - title: "Menalaus' Theorem"
+        url: geometry/menalaus 
+      - title: "Power of a Point"
+        url: geometry/power_of_a_point 
+      - title: "Ptolemy's Theorem"
+        url: geometry/ptolemy 
+      - title: "Stewart's Theorem"
+        url: geometry/stewarts 
+
+
+
+# sidebar_proofs:
+#   - title: Complex Number
+#     children:
+#       - title: "Euler's Theorem"
+#         url: geometry/eulers_theorem

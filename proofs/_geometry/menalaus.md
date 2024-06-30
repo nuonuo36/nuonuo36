@@ -2,7 +2,6 @@
 title:  "Proof of circles"
 date: 2024-6-26 17:22:24 +0800
 categories: circle
-permalink: proofs/circles1
 ---
 
 
