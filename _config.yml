@@ -33,7 +33,9 @@ plugins:
 
 include:
   - _pages
-  - _proofs
+  - proofs
+  - proofs/_complex_number
+  - _geometry
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
@@ -55,16 +57,22 @@ search_provider          : lunr
 
 defaults:
   - scope:
-      path: "_geometry" 
-      path: "_trignometry"
-      path: "number#every md in folder *orange* has the following traits
+      path: "_geometry" #every md in folder *orange* has the following traits
     values:
       sidebar:
         nav: "sidebar_proofs"
       toc: true
       layout: layout_proofs #every html in folder *orange is a layout
 
+
 collections:
-  proofs: #makes a collection called proofs
+  geometry: #makes a collection called proofs
     output: true
     permalink: /:collection/:title/
+    
+
+collection_dir: proofs #under folder proofs
+collections:
+  complex_number:
+    output: true
+      permalink: /:collection/:title/
