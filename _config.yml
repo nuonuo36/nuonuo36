@@ -78,8 +78,7 @@ collections:
   trigonometry: #makes a collection called proofs
     output: true
     permalink: /:collection/:title/
-and did you figure out the collection_dir thingy?
-no :(  look inside _geometry thats what i did
+
 # collection_dir: proofs #under folder proofs
 # collections:
 #   complex_number:

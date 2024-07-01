@@ -6,4 +6,5 @@ categories: triangle
 
 
 $$
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}
 $$
