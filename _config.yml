@@ -71,6 +71,8 @@ defaults:
         nav: "sidebar_proofs"
       toc: true
       layout: layout_proofs #every html in folder *orange is a layout
+
+      
 collections:
   geometry: #makes a collection called proofs
     output: true

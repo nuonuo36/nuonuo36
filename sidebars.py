@@ -1,15 +1,23 @@
 import os 
+import string
 
-categoryList = ['geometry','trigonometry']
-categoryDct = {f'_{category}':os.listdir(f'_{category}') for category in categoryList}
+categoryList = ['geometry','trigonometry', 'complex_number'] # Enter category names here (same as )
+categoryDct = { category :os.listdir(f'_{category}') for category in categoryList}
 
 result = ""
 
 for key in categoryDct.keys():
-    result += key.strip('_')
-    result += "\t-title: {}"
+    category = " ".join(key.split("_"))
+    result += category + ":\n"
+    result += f"\t-\ttitle: {string.capwords(category)}\n\t\tchildren:\n"
     for page in categoryDct[key]:
+        with open(f"_{key}/{page}",'r') as f:
+            title = f.read().split("title")[1].split("\n")[0].lstrip(": ")
+        result += f"\t\t\t-\ttitle: {title}\n\t\t\t\turl: {key}/{page.split(".")[0]}\n"
 
 
+with open("_data/navigation.yml", "r") as f:
+    beforeData = f.read().split("# Sidebars")[0]
 
-
+with open("_data/navigation.yml", "w") as f:
+    f.write(beforeData + "# Sidebars\n" + result)
