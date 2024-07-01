@@ -26,15 +26,13 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+theme: "minimal-mistakes-jekyll"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
 include:
   - _pages
-  - proofs
-  - proofs/_complex_number
   - _geometry
   - _trigonometry
 
@@ -61,14 +59,14 @@ defaults:
       path: "_geometry" #every md in folder *orange* has the following traits
     values:
       sidebar:
-        nav: "sidebar_proofs"
+        nav: "geometry"
       toc: true
       layout: layout_proofs #every html in folder *orange is a layout
   - scope:
       path: "_trigonometry" #every md in folder *orange* has the following traits
     values:
       sidebar:
-        nav: "sidebar_proofs"
+        nav: "trigonometry"
       toc: true
       layout: layout_proofs #every html in folder *orange is a layout
 
