@@ -36,6 +36,7 @@ include:
   - proofs
   - proofs/_complex_number
   - _geometry
+  - _trigonometry
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
@@ -63,16 +64,24 @@ defaults:
         nav: "sidebar_proofs"
       toc: true
       layout: layout_proofs #every html in folder *orange is a layout
-
-
+  - scope:
+      path: "_trigonometry" #every md in folder *orange* has the following traits
+    values:
+      sidebar:
+        nav: "sidebar_proofs"
+      toc: true
+      layout: layout_proofs #every html in folder *orange is a layout
 collections:
   geometry: #makes a collection called proofs
     output: true
     permalink: /:collection/:title/
-    
-
-collection_dir: proofs #under folder proofs
-collections:
-  complex_number:
+  trigonometry: #makes a collection called proofs
     output: true
-      permalink: /:collection/:title/
+    permalink: /:collection/:title/
+and did you figure out the collection_dir thingy?
+no :(  look inside _geometry thats what i did
+# collection_dir: proofs #under folder proofs
+# collections:
+#   complex_number:
+#     output: true
+#       permalink: /:collection/:title/
