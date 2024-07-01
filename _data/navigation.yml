@@ -2,24 +2,40 @@ main:
   - title: "Geometry" #press on "Geometry,"
     url: /geometry/ #goes to that url
 
-sidebar_proofs:
+# Sidebars
+geometry:
   - title: Geometry
     children:
       - title: "Ceva's Theorem"
         url: geometry/ceva
       - title: "Menalaus' Theorem"
-        url: geometry/menalaus 
+        url: geometry/menalaus
       - title: "Power of a Point"
-        url: geometry/power_of_a_point 
+        url: geometry/power_of_a_point
       - title: "Ptolemy's Theorem"
-        url: geometry/ptolemy 
+        url: geometry/ptolemy
       - title: "Stewart's Theorem"
-        url: geometry/stewarts 
-
-
-
-# sidebar_proofs:
-#   - title: Complex Number
-#     children:
-#       - title: "Euler's Theorem"
-#         url: geometry/eulers_theorem
+        url: geometry/stewart
+trigonometry:
+  - title: Trigonometry
+    children:
+      - title: "Angle Addition Theorem"
+        url: trigonometry/angle_addition
+      - title: "Double Angle Theorem"
+        url: trigonometry/double_angle
+      - title: "Half Angle Theorem"
+        url: trigonometry/half_angle
+      - title: "Law of Cosine"
+        url: trigonometry/law_of_cosine
+      - title: "Law of Sine"
+        url: trigonometry/law_of_sine
+complex number:
+  - title: Complex Number
+    children:
+      - title: "Euler's Theorem"
+        url: complex_number/euler's_formula
+number theory:
+  - title: Number Theory
+    children:
+      - title: "Fermats Little Theorem"
+        url: number_theory/fermats_little
