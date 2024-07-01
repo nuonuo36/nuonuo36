@@ -6,6 +6,9 @@ categories:
 
 
 $$
-\sin(\alpha\underset{-}{+}\beta) = \sin(\alpha)\cos(\beta)\underset{-}{+}\cos(\alpha)\sin(\beta)
-\cos(\alpha+\beta) = \cos(\alpha)\cos(\beta)-\sin(\alpha)\sin(\beta)
+\sin(\alpha\pm\beta) = \sin(\alpha)\cos(\beta)\pm\cos(\alpha)\sin(\beta)
+
+\cos(\alpha\pm\beta) = \cos(\alpha)\cos(\beta)\mp\sin(\alpha)\sin(\beta)
+
+\tan(\alpha\pm\beta) = \frac{\tan\alpha \pm \tan\beta}{1\mp\tan\alpha\tan\beta}
 $$
