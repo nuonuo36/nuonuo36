@@ -35,6 +35,8 @@ include:
   - _pages
   - _geometry
   - _trigonometry
+  - _complex_number
+  - _number_theory
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
@@ -63,19 +65,39 @@ defaults:
       toc: true
       layout: layout_proofs #every html in folder *orange is a layout
   - scope:
-      path: "_trigonometry" #every md in folder *orange* has the following traits
+      path: "_trigonometry"
     values:
       sidebar:
         nav: "trigonometry"
       toc: true
-      layout: layout_proofs #every html in folder *orange is a layout
+      layout: layout_proofs 
+  - scope:
+      path: "_number_theory"
+    values:
+      sidebar:
+        nav: "number_theory"
+      toc: true
+      layout: layout_proofs 
+  - scope:
+      path: "_complex_number"
+    values:
+      sidebar:
+        nav: "complex_number"
+      toc: true
+      layout: layout_proofs 
 
       
 collections:
-  geometry: #makes a collection called proofs
+  geometry: #makes a collection called *blue*
     output: true
     permalink: /:collection/:title/
-  trigonometry: #makes a collection called proofs
+  trigonometry:
+    output: true
+    permalink: /:collection/:title/
+  complex_number:
+    output: true
+    permalink: /:collection/:title/
+  number_theory:
     output: true
     permalink: /:collection/:title/
 
