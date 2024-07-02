@@ -42,29 +42,13 @@
 <body id="page-top">
   {% include nav.html %}
   {% include header.html %}
-  {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
- {% endif %}
-
-    {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
-
-    <div id="main" role="main">
-    {% include sidebar.html %}
-
-    <div class="archive">
-        {% unless page.header.overlay_color or page.header.overlay_image %}
-        <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
-        {% endunless %}
 
 
-          <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-          <div id="results" class="results"></div>
-
-    </div>
+  <form action="search.html" method="get">
+		<label for="search_box">Search</label>
+		<input type="text" id="search_box" name="query">
+		<input type="submit" value="search">
+	</form>
     
   <!-- {% include call-to-action.html %} -->
   <!-- {% include services.html %} -->
