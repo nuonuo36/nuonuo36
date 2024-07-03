@@ -85,6 +85,13 @@ defaults:
         nav: "complex_number"
       toc: true
       layout: layout_proofs 
+  - scope:
+      path: "_sequence"
+    values:
+      sidebar:
+        nav: "sequence"
+      toc: true
+      layout: layout_proofs 
 
       
 collections:
@@ -98,6 +105,9 @@ collections:
     output: true
     permalink: /:collection/:title/
   number_theory:
+    output: true
+    permalink: /:collection/:title/
+  sequence:
     output: true
     permalink: /:collection/:title/
 
