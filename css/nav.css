@@ -294,12 +294,57 @@ svg:not(:root) { overflow: hidden; }
 
 /* Navigation lists ========================================================================== */
 /** Removes margins, padding, and bullet points from navigation lists  Example usage: <nav> <ul> <li><a href="#link-1">Link 1</a></li> <li><a href="#link-2">Link 2</a></li> <li><a href="#link-3">Link 3</a></li> </ul> </nav> */
-nav { /* override white-space for nested lists */ }
-nav ul { margin: 0; padding: 0; }
+nav { background-color: #ffffff;/* override white-space for nested lists */ }
+nav ul { margin: 0; padding: 0; 
+  list-style:unset; 
+  /* position: relative;} */}
 nav li { list-style: none; }
-nav a { text-decoration: none; }
-nav ul li, nav ol li { margin-bottom: 0; }
+nav a { text-decoration: none; 
+  display: block;
+  padding: 0 15px;
+  color: #fff;
+  line-height: 60px;
+  font-size: 20px;
+  text-decoration: none;}
+nav ul li, nav ol li { margin-bottom: 0; 
+  display: inline-block; 
+  background-color: #ffffff;}
 nav li ul, nav li ol { margin-top: 0; }
+
+/* dropdown menu */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+/* hover */
+nav a:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+  display: inherit;
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li{
+  display: list-item;
+  position: relative;
+  width: 170px;
+  /* float:none; */
+}
+/* ============ Second, Third and More Tiers ===========*/
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+/* ============ add + ===========*/
+li > a::after { content: ' +';}
+li > a:only-child::after {
+    content: '';
+}
+/* dropdown menu ends */
 
 /* Global animation transition ========================================================================== */
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
@@ -959,8 +1004,8 @@ pre:hover .clipboard-copy-button { opacity: 1; }
 #main { clear: both; margin-left: auto; margin-right: auto; padding-left: 1em; padding-right: 1em; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; max-width: 100%; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; }
 #main::after { clear: both; content: ""; display: table; }
 @media (min-width: 80em) { #main { max-width: 1280px; } }
-
-body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 100vh; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+/* navbar size  font-size: 16px; -webkit-text-size-adjust:100%; */ 
+body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 100vh; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
 
 .initial-content, .search-content { flex: 1 0 auto; }
 
