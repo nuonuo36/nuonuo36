@@ -1,24 +1,56 @@
 <div class="masthead">
-    <div class="masthead__inner-wrap">
-      <div class="masthead__menu">
-        <nav id="site-nav" class="greedy-nav">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/mathproofs/">
+          SNOOFS
           
-          <a class="site-title" href=" ">
-            SNOOFS
-            
-          </a >
-          <ul class="visible-links"><li class="masthead__menu-item">
-                <a
-                  href="/mathproofs/list_of_proofs/"
-                >Proofs</a >
-              </li></ul>
-          
-          <button class="greedy-nav__toggle hidden" type="button">
-            <span class="visually-hidden">Toggle menu</span>
-            <div class="navicon"></div>
-          </button>
-          <ul class="hidden-links hidden"></ul>
-        </nav>
-      </div>
+        </a>
+        <ul class="visible-links">
+          <li class="masthead__menu-item">
+              <a
+                href="/mathproofs/list_of_proofs/"         
+              >Proofs
+              </a>
+              <!--First Tier Drop Down-->
+                <ul>
+
+                  <li><a href="">Resource</a></li>
+                <li><a href="">Links</a></li>
+                <li><a href="">Tutorials</a>
+                              
+              <!--Second Tier Drop Down-->
+                  <ul>
+                    <li><a href="">HTML/CSS</a></li>
+                    <li><a href="">JQuery</a></li>
+                  <li><a href="">Outher</a>
+                                      
+              <!-- Third Tier Drop Down-->
+                    <ul>
+                        <li><a href="">Stuff</a></li>
+                      <li><a href="">Things</a></li>
+                      <li><a href="">Outher Stuff</a></li>
+                    </ul>
+                                      
+                  </li>
+                  </ul>            
+                </li>
+                </ul>
+          </li>
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
     </div>
   </div>
+</div>
