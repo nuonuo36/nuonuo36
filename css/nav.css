@@ -301,7 +301,7 @@ nav ul { margin: 0; padding: 0;
 nav li { list-style: none; }
 nav a { text-decoration: none; 
   display: block;
-  padding: 0 15px;
+  padding: 0 0px;
   color: #fff;
   line-height: 60px;
   font-size: 20px;
@@ -331,13 +331,18 @@ nav ul ul li{
   display: list-item;
   position: relative;
   width: 170px;
-  /* float:none; */
+}
+nav ul ul li a{
+  font-size: 16px;
 }
 /* ============ Second, Third and More Tiers ===========*/
 nav ul ul ul li {
   position: relative;
   top: -60px;
   left: 170px;
+}
+nav  ul ul ul li a{
+  font-size: 14px;
 }
 /* ============ add + ===========*/
 li > a::after { content: ' +';}
