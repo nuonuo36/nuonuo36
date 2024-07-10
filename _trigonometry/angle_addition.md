@@ -15,3 +15,4 @@ $$
 \tan(\alpha\pm\beta) &= \frac{\tan\alpha \pm \tan\beta}{1\mp\tan\alpha\tan\beta} \\
 \end{align*}
 $$
+
