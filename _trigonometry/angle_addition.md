@@ -4,7 +4,7 @@ date: 2024-6-27 17:22:24 +0800
 categories: 
 ---
 
-Conclusion:
+### Theorem
 
 $$
 \begin{align*}
@@ -16,3 +16,10 @@ $$
 \end{align*}
 $$
 
+### Proofs
+
+$$
+[asy] 
+unitsize(0.25); pair A; A = (0,0)
+[/asy]
+$$
