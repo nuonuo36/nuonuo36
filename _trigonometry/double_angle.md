@@ -8,37 +8,38 @@ toc_sticky: true
 
 $$
 \begin{align}
-\sin2\alpha &= 2\sin\alpha\cos\alpha \\
+\sin 2\alpha &= 2\sin\alpha\cos\alpha \\
 
-\cos2\alpha &= \cos^2\alpha-\sin^2\alpha \\
+\cos 2\alpha &= \cos^2\alpha-\sin^2\alpha \\
 &= 2\cos^2\alpha - 1 \\ 
 &= 1 - 2\sin^2\alpha\\
 
-\tan2\alpha &= \frac{2\tan\alpha}{1-\tan^2\alpha}\\
+\tan 2\alpha &= \frac{2\tan\alpha}{1-\tan^2\alpha}\\
 \end{align}
 $$
 
 ## Proof 1
 
 ### Step 1
- Use [**Angle Addition Formula**](../angle_addition)
+Use [**Angle Addition Formula**](../angle_addition)
 
 $$
 \begin{align}
 \notag\sin(\alpha + \alpha) &= \sin\alpha\cos\alpha + \sin\alpha\cos\alpha \\
 \tag{1}\sin2\alpha &= 2\sin\alpha\cos\alpha \\
-\end{align} 
-\\
-
-
-\\
-\begin{align}
+\notag
+\notag \\
 \notag\cos(\alpha + \alpha) &= \cos\alpha\cos\alpha - \sin\alpha\sin\alpha \\
 \tag{2}\cos2\alpha &= \cos^2\alpha - \sin^2\alpha \\
+\notag
+\\\notag
+\notag\tan(\alpha+\alpha) &= \frac{\tan\alpha + \tan\alpha}{1-\tan\alpha\tan\alpha} \\
+\tag{5}\tan 2\alpha &= \frac{2\tan\alpha}{1-\tan^2\alpha}\\
 \end{align}
+\\
 $$
 
-### Step 2
+### Step 2 (for cosine only)
 Use [**Pythagorean Identity**](../pythogorean_identity)
 
 $$
