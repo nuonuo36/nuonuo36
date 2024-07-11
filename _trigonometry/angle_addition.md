@@ -19,7 +19,5 @@ $$
 ### Proofs
 
 $$
-[asy] 
-unitsize(0.25); pair A; A = (0,0)
-[/asy]
+
 $$
