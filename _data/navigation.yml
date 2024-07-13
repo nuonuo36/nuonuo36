@@ -31,6 +31,10 @@ trigonometry:
         url: trigonometry/law_of_sine
       - title: "Pythagorean Identities"
         url: trigonometry/pythagorean_identities
+      - title: "Sum to Product"
+        url: trigonometry/sum_to_product
+      - title: "Product to Sum"
+        url: trigonometry/product_to_sum
 complex number:
   - title: Complex Number
     children:
