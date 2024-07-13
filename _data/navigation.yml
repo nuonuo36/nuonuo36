@@ -29,6 +29,8 @@ trigonometry:
         url: trigonometry/law_of_cosine
       - title: "Law of Sine"
         url: trigonometry/law_of_sine
+      - title: "Pythagorean Identities"
+        url: trigonometry/pythagorean_identities
 complex number:
   - title: Complex Number
     children:

@@ -18,7 +18,7 @@ $$
 \end{align}
 $$
 
-## Proof 1
+## Proof 1 (***for cosine and sine***)
 
 ### Step 1
 Use [**Double Angle Formula**](../double_angle)
@@ -47,3 +47,7 @@ $$
 \tag{2}\cos\frac{\alpha}{2} &= \pm\sqrt{\frac{1+ \cos \alpha}{2}}
 \end{align}
 $$
+
+## Proof 2
+### Step 1
+Use 
