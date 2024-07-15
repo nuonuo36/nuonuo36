@@ -45,3 +45,11 @@ number theory:
     children:
       - title: "Fermats Little Theorem"
         url: number_theory/fermats_little
+sequence:
+  - title: Sequence
+    children:
+      - title: "Arithmetic Sequence"
+        url: sequence/arithmetic_sequence
+      - title: "Geometric Sequence"
+        url: sequence/geometric_sequence
+  
