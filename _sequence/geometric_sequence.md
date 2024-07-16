@@ -22,4 +22,4 @@ S_\infty \frac{a_1}{1-r}
 $$
 
 
-**note**: $$a_i$$ is the $$i$$th term, $$r$$ is the common ratio, and $$n$$ is the number of terms 
+**note**: $$S_i$$ is the sum of the 1~$$i$$th term, $$a_i$$ is the $$i$$th term, $$r$$ is the common ratio, and $$n$$ is the number of terms 
