@@ -16,6 +16,11 @@ geometry:
         url: geometry/ptolemy
       - title: "Stewart's Theorem"
         url: geometry/stewart
+      - title: "Angle Bisector Theorem"
+        url: geometry/angle_bisector
+      - title: "Shoelace Theorem"
+        url: geometry/shoelace
+      
 trigonometry:
   - title: Trigonometry
     children:
