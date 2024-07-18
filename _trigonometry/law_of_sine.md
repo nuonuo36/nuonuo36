@@ -20,14 +20,29 @@ Draw a perpendicular line to make right triangles with shared sides
 
 ## Proof 2 (triangle area)
 
-### Step 1
+### Step 1 
+Use [**$$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$**](../triangle_area)
+
+<!-- 
+$$
+\begin{align*}
+\frac{1}{2}ab\sin C & = \frac{1}{2}ac\sin B&{}={}&\frac{1}{2}bc\sin A \\
+ab\sin C & = ac\sin B&{}={}&bc\sin A \\
+\text{Divide by abc: } \\ 
+\frac{a}{\sin A} & = \frac{b}{\sin B}&{}={}&\frac{c}{\sin C} \tag{1}
+\end{align*}
+$$ -->
 
 $$
-\text{Using } S_{\triangle ABC}= \frac{1}{2}ab\sin C \\
-\begin{align*}
-\frac{1}{2}ab\sin C &= \frac{1}{2}ac\sin B &= \frac{1}{2}bc\sin A \\
-ab\sin C &= ac\sin B &= bc\sin A \\
-\text{Divide by abc: } \\ 
-\frac{a}{\sin A} &= \frac{b}{\sin B} &= \frac{c}{\sin C} \tag{1}
-\end{align*}
+\begin{alignat*}{2}
+\frac{1}{2}ab\sin C 
+&= \frac{1}{2}ac\sin B
+&&=\frac{1}{2}bc\sin A \\
+ab\sin C 
+&= \hspace{4px}ac\sin B
+&&=bc\sin A \\
+\frac{a}{\sin A} 
+&= \hspace{8px}\frac{b}{\sin B}
+&&=\frac{c}{\sin C} \tag{1}
+\end{alignat*}
 $$
