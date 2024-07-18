@@ -24,13 +24,13 @@ Use [**Double Angle Formula**](../double_angle)
 For half angle formula of **sine**, use double angle formula of **cosine**
 
 $$
-\begin{align}
-\notag \text{substitue } 2\beta = \alpha  \\
-\notag  \cos 2\alpha &= 1- 2\sin^2\beta   \\
-\notag \sin^2\beta &= \frac{1- \cos 2\beta}{2}  \hspace{1cm} \text{move terms}\\
-\notag \sin^2\frac{\alpha}{2} &= \frac{1- \cos \alpha}{2} \hspace{1cm} \text{substitue back} \\
+\begin{align*}
+\text{substitue } 2\beta = \alpha  \\
+\cos 2\alpha &= 1- 2\sin^2\beta   \\
+\sin^2\beta &= \frac{1- \cos 2\beta}{2}  \hspace{1cm} \text{move terms}\\
+\sin^2\frac{\alpha}{2} &= \frac{1- \cos \alpha}{2} \hspace{1cm} \text{substitue back} \\
 \tag{1}\sin\frac{\alpha}{2} &= \pm\sqrt{\frac{1- \cos \alpha}{2}}
-\end{align}
+\end{align*}
 $$
 
 ***WHY IS IT ADD AND MINUS SQRT***
