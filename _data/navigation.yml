@@ -4,46 +4,52 @@ main:
 
 # Sidebars
 geometry:
-  - title: Geometry
+  - title: Triangle
     children:
       - title: "Ceva's Theorem"
         url: geometry/ceva
       - title: "Menalaus' Theorem"
         url: geometry/menalaus
-      - title: "Power of a Point"
-        url: geometry/power_of_a_point
-      - title: "Ptolemy's Theorem"
-        url: geometry/ptolemy
       - title: "Stewart's Theorem"
         url: geometry/stewart
       - title: "Angle Bisector Theorem"
         url: geometry/angle_bisector
+      - title: "Triangle Area"
+        url: geometry/triangle_area
+  - title: Circle
+    children:
+      - title: "Power of a Point"
+        url: geometry/power_of_a_point
+      - title: "Ptolemy's Theorem"
+        url: geometry/ptolemy
+  - title: Polygon
+    children:
       - title: "Shoelace Theorem"
         url: geometry/shoelace
       
 trigonometry:
-  - title: Trigonometry Theorems
+  - title: Caculation Theorems
     children:
+      - title: "Pythagorean Identities"
+        url: trigonometry/pythagorean_identities
       - title: "Angle Addition Theorem"
         url: trigonometry/angle_addition
       - title: "Double Angle Theorem"
         url: trigonometry/double_angle
       - title: "Half Angle Theorem"
         url: trigonometry/half_angle
-      - title: "Law of Cosine"
-        url: trigonometry/law_of_cosine
-      - title: "Law of Sine"
-        url: trigonometry/law_of_sine
-      - title: "Pythagorean Identities"
-        url: trigonometry/pythagorean_identities
       - title: "Sum to Product"
         url: trigonometry/sum_to_product
       - title: "Product to Sum"
         url: trigonometry/product_to_sum
-  - title: Trigonometry Formulas
+  - title: Triangles
     children:
-      - title: "Triangle Area"
-        url: trigonometry/triangle_area
+      - title: "Law of Cosine"
+        url: trigonometry/law_of_cosine
+      - title: "Law of Sine"
+        url: trigonometry/law_of_sine
+    
+
 complex number:
   - title: Complex Number
     children:
