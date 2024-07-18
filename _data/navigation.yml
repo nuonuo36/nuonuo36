@@ -22,7 +22,7 @@ geometry:
         url: geometry/shoelace
       
 trigonometry:
-  - title: Trigonometry
+  - title: Trigonometry Theorems
     children:
       - title: "Angle Addition Theorem"
         url: trigonometry/angle_addition
@@ -40,6 +40,10 @@ trigonometry:
         url: trigonometry/sum_to_product
       - title: "Product to Sum"
         url: trigonometry/product_to_sum
+  - title: Trigonometry Formulas
+    children:
+      - title: "Triangle Area"
+        url: trigonometry/triangle_area
 complex number:
   - title: Complex Number
     children:
