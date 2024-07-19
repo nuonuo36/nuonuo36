@@ -1,6 +1,8 @@
 main:
-  - title: "Geometry" #press on "Geometry,"
-    url: /geometry/ #goes to that url
+  - title: "Proofs+" #press on "Geometry,"
+    url: /list_of_proofs/ #goes to that url
+  - title: "Snoopy"
+    url: /snoopy/ #goes to that url
 
 # Sidebars
 geometry:

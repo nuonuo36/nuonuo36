@@ -2,8 +2,12 @@
 title:  "Triangle Area"
 date: 2024-6-27 17:22:24 +0800
 categories: 
+group: [triangle]
 ---
 
+<span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
 
 ## Base Height
 ### Proof
