@@ -5,6 +5,8 @@ categories: triangle
 group: [triangle]
 ---
 
+## Theorem
+
 $$
 b^2 \cdot AC + c^2 \cdot AB = a \cdot AD^2 + BD \cdot DC
 $$
