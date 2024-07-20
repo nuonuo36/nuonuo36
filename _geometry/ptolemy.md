@@ -5,6 +5,8 @@ categories: circle
 group: [circle]
 ---
 
+## Theorem
+
 $$
 AC \cdot BD = AB \cdot CD + AD \cdot BC
 $$

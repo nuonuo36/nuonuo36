@@ -7,7 +7,7 @@ group: [triangle]
 
 
 
-## Proof 1
+## Theorem
 
 
 $$

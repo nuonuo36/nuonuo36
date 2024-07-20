@@ -361,22 +361,22 @@ li > a:only-child::after {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 
 /* ========================================================================== Forms ========================================================================== */
-form { margin: 0 0 5px 0; padding: 1em; background-color: #f2f3f3; }
+form { margin: 0 0 0px 0; padding: 1em; background-color: #f2f3f3; } 
 form fieldset { margin-bottom: 5px; padding: 0; border-width: 0; }
-form legend { display: block; width: 100%; margin-bottom: 10px; *margin-left: -7px; padding: 0; color: #3d4144; border: 0; white-space: normal; }
+form legend { display: block; width: 100%; margin-bottom: 10px;  padding: 0; color: #3d4144; border: 0; white-space: normal; }
 form p { margin-bottom: 2.5px; }
-form ul { list-style-type: none; margin: 0 0 5px 0; padding: 0; }
+form ul { list-style-type: none; margin: 0 0 5 0; padding: 0; }
 form br { display: none; }
 
-label, input, button, select, textarea { vertical-align: baseline; *vertical-align: middle; }
+label, input, button, select, textarea {margin-left: auto; margin-right: auto; display: block; }
 
 input, button, select, textarea { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
 
-label { display: block; margin-bottom: 0.25em; color: #3d4144; cursor: pointer; }
-label small { font-size: 0.75em; }
-label input, label textarea, label select { display: block; }
+label { display: block; margin-bottom: 0.25em; color: #3d4144; cursor: pointer; text-align: center;}
 
-input, textarea, select { display: inline-block; width: 100%; padding: 0.25em; margin-bottom: 0.5em; color: #3d4144; background-color: #fff; border: #f2f3f3; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
+label small { font-size: 0.75em; }
+
+input, textarea, select {  width: 100%; padding: 0.25em; margin-bottom: 0.5em; color: #3d4144; background-color: #fff; border: #f2f3f3; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
 
 .input-mini { width: 60px; }
 
@@ -412,6 +412,7 @@ input[type="hidden"] { display: none; }
 
 .radio.inline + .radio.inline, .checkbox.inline + .checkbox.inline { margin-left: 10px; }
 
+body label{font-size: larger;}
 /* Disabled state ========================================================================== */
 input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] { opacity: 0.5; cursor: not-allowed; }
 

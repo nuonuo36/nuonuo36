@@ -5,6 +5,8 @@ categories: circle triangle
 group: [circle]
 ---
 
+## Theorem
+
 $$
 PT_1 \cdot PT_2 = OP^2 - r^2
 $$
