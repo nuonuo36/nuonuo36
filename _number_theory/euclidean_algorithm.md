@@ -4,4 +4,3 @@ categories: gcd
 group: [IDKDIDKIDKDIDk]
 ---
 
-$$
