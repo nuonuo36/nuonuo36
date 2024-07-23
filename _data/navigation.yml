@@ -69,4 +69,8 @@ sequence:
         url: sequence/arithmetic_sequence
       - title: "Geometric Sequence"
         url: sequence/geometric_sequence
-  
+snoopy's_secret_tricks:
+  - title: Snoopy's Secret Tricks
+    children:
+      - title: "sup"
+        url: snoopy's_secret_tricks/sup
