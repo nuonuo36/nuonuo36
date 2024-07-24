@@ -38,7 +38,7 @@ include:
   - _complex_number
   - _number_theory
   - _sequence
-  - _snoopys_secret_tricks
+  - _snoopy's_secret_tricks
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
@@ -95,10 +95,10 @@ defaults:
       toc: true
       layout: layout_proofs
   - scope:
-      path: "_snoopys_secret_tricks"
+      path: "_snoopy's_secret_tricks"
     values:
       sidebar:
-        nav: "snoopys_secret_tricks"
+        nav: "snoopy's_secret_tricks"
       toc: true
       layout: layout_proofs     
 
@@ -119,7 +119,7 @@ collections:
   sequence:
     output: true
     permalink: /:collection/:title/
-  snoopys_secret_tricks:
+  snoopy's_secret_tricks:
     output: true
     permalink: /collection/:title/
 

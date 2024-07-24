@@ -1,8 +1,7 @@
 ---
-title: sup
-categories: snoopy's_secret_tricks
-# group: [snoopy]
-date: 2024-6-27 17:22:24 +0800
+title: "sup"
+# collection: snoopy's_secret_tricks
+# categories: snoopys_secret_tricks
+permalink: /snoopy's_secret_tricks/sup
+# group: [snoopys_secret_tricks]
 ---
-
-## If you are happy clap along
