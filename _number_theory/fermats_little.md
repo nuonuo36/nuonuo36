@@ -5,7 +5,6 @@ categories: [modular arithmetic]
 group: [modular]
 ---
 
-## Theorem 
 
 $$
     a^p \equiv a \pmod{p}
