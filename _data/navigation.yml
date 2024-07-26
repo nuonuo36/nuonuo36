@@ -74,3 +74,8 @@ snoopy's_secret_tricks:
     children:
       - title: "sup"
         url: snoopy's_secret_tricks/sup
+probability:
+  - title: Probability
+    children:
+      - title: "Stars and Bars"
+        url: probability/stars_and_bars

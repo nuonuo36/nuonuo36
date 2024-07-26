@@ -39,6 +39,7 @@ include:
   - _number_theory
   - _sequence
   - _snoopy's_secret_tricks
+  - _probability
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
@@ -101,6 +102,13 @@ defaults:
         nav: "snoopy's_secret_tricks"
       toc: true
       layout: layout_proofs     
+  - scope:
+      path: "_probability"
+    values:
+      sidebar:
+        nav: "probability"
+      toc: true
+      layout: layout_proofs
 
       
 collections:
@@ -122,6 +130,9 @@ collections:
   snoopy's_secret_tricks:
     output: true
     permalink: /collection/:title/
+  probability:
+    output: true
+    permalink: /:collection/:title/
 
 # collection_dir: proofs #under folder proofs
 # collectio:cns:
