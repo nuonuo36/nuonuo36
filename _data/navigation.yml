@@ -52,16 +52,16 @@ trigonometry:
         url: trigonometry/law_of_sine
     
 
-complex number:
-  - title: Complex Number
-    children:
-      - title: "Euler's Theorem"
-        url: complex_number/euler's_formula
+
 number theory:
-  - title: Number Theory
+  - title: modular
     children:
       - title: "Fermats Little Theorem"
         url: number_theory/fermats_little
+  - title: complex number
+    children:
+      - title: "Euler's Theorem"
+        url: number_theory/euler's_formula
 sequence:
   - title: Sequence
     children:
@@ -79,3 +79,8 @@ probability:
     children:
       - title: "Stars and Bars"
         url: probability/stars_and_bars
+algebra:
+  - title: Quadratic
+    children: 
+      - title: "Vieta's Theorem"
+        url: algebra/vieta's_theorem
