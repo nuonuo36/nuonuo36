@@ -1,6 +1,6 @@
 ---
 title: Euclidean Algorithm
 categories: gcd
-group: [JBSQJDNALK]
+group: [IDKDIDKIDKDIDk]
 ---
 

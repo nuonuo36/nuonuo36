@@ -35,10 +35,10 @@ include:
   - _pages
   - _geometry
   - _trigonometry
+  - _complex_number
   - _number_theory
   - _sequence
   - _snoopy's_secret_tricks
-  - algebra
   - _probability
 
 search                   : true # true, false (default)
@@ -82,6 +82,13 @@ defaults:
       toc: true
       layout: layout_proofs 
   - scope:
+      path: "_complex_number"
+    values:
+      sidebar:
+        nav: "complex_number"
+      toc: true
+      layout: layout_proofs 
+  - scope:
       path: "_sequence"
     values:
       sidebar:
@@ -102,19 +109,16 @@ defaults:
         nav: "probability"
       toc: true
       layout: layout_proofs
-  - scope:
-      path: "_algebra"
-    values:
-      sidebar:
-        nav: "algebra"
-      toc: true
-      layout: layout_proofs
+
       
 collections:
   geometry: #makes a collection called *blue*
     output: true
     permalink: /:collection/:title/
   trigonometry:
+    output: true
+    permalink: /:collection/:title/
+  complex_number:
     output: true
     permalink: /:collection/:title/
   number_theory:
