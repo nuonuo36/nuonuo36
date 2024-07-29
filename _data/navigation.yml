@@ -62,6 +62,10 @@ number theory:
     children:
       - title: "Euler's Theorem"
         url: number_theory/euler's_formula
+  - title: other
+    children:
+      - title: "Useful Theorems"
+        url: "number_theory/useful_theorems"
 sequence:
   - title: Sequence
     children:
@@ -84,3 +88,7 @@ algebra:
     children: 
       - title: "Vieta's Theorem"
         url: algebra/vieta's_theorem
+  - title: other
+    children:
+      - title: "Useful Theorems"
+        url: "algebra/useful_theorems"

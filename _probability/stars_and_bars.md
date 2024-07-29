@@ -5,3 +5,6 @@ categories:
 group: [probability]
 permalink: probability/stars_and_bars
 ---
+
+## When to apply
+When you have two sets of things: one distinguishable one indistinguishable
