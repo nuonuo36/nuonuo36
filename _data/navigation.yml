@@ -28,6 +28,10 @@ geometry:
     children:
       - title: "Shoelace Theorem"
         url: geometry/shoelace
+  - title: Euclidean Plane
+    children: 
+      - title: "Distance Formulas"
+        url: geometry/distance_formulas
       
 trigonometry:
   - title: Caculation Theorems
