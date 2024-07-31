@@ -17,3 +17,4 @@ $$
 \tan\alpha-\tan\beta &= \frac{\sin(\alpha-\beta)}{\cos\alpha\cos\beta} \\
 \end{align}
 $$
+

@@ -9,3 +9,8 @@ group: [other]
 
 
 ## Use $$a^{2}=b^{2}$$ to prove $$a=b$$
+
+## Changing form of answer
+e.g. if asked for the sum of the reciprocal of a and b:
+$$\frac{1}{a}+\frac{1}{b}=\frac{a+b}{ab}$$
+now you just have to find the sum and product of a and b!
