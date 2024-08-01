@@ -19,8 +19,10 @@ $$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$
 ## Inscribed Circle (Angle Bisectors)
 ### Proof
 
+
 ## Trapezoid
 ### Proof
+
 
 ## Centroid and Medians
 ### Proof
