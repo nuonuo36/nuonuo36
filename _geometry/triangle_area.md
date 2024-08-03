@@ -57,7 +57,14 @@ $$
 \begin{align*}
 S_{\triangle ABC} &= \frac{1}{2}ab\sin C \\
 &= \frac{1}{2}ab \sqrt{1-\cos^2\theta} \text{Use Pythagorean Identity}\\
-&= \frac{1}{2}ab \sqrt{1-(a^2 + b^2 - 2ab\cos \theta)} 
+&= \frac{1}{2}ab \sqrt{1-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{Use Law of Cosine}\\
+&= \frac{1}{2}ab \sqrt{\frac{(2ab)^2}{(2ab)^2}-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{Simplify}\\
+&= \frac{1}{2}ab \sqrt{\frac{(2ab)^2-(c^2 - a^2 - b)^2}{(2ab)^2}} \text{Simplify}\\
+&= \frac{1}{2}ab \frac{\sqrt{(2ab)^2-(c^2 - a^2 - b)^2}}{2ab} \text{Simplify}\\
+&= \frac{1}{2}ab \frac{\sqrt{(2ab)^2-(c^2 - a^2 - b)^2}}{2ab} \text{Use a^2-b^2=(a-b)(a+b)}\\
+&= \frac{1}{2}ab \frac{\sqrt{(2ab-c^2 + a^2 + b)(2ab+c^2 - a^2 - b)}}{2ab} \text{Use a^2-b^2=(a-b)(a+b)}\\
+&= \frac{1}{2}ab \frac{\sqrt{((a+b)^2-c^2)(c^2-(a+b)^2)}}{2ab} \text{Use (a+b)^2=a^2+2ab+b^2}\\
+&= \frac{1}{2}ab \frac{\sqrt{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}}{2ab} \text{Use a^2-b^2=(a-b)(a+b)}\\
 
 \end{align*}
 $$
