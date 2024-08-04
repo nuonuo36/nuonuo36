@@ -16,3 +16,11 @@ $$\frac{1}{a}+\frac{1}{b}=\frac{a+b}{ab}$$
 now you just have to find the sum and product of a and b!
 
 ## $$(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ac)$$
+
+
+
+## $$(a+b)^n = $$
+* Importantly, **(a+b)^2 = a^2+2ab+c^2**
+
+## $$a^2-b^2=(a-b)(a+b)$$
+

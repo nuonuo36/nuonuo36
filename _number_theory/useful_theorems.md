@@ -7,3 +7,4 @@ group: [other]
 
 
 The sum of the firt $$n$$ odd numbers is $$n^{2}$$
+***IN ALEGBRA OR SEQUENCE OR NUMBER THEORY***
