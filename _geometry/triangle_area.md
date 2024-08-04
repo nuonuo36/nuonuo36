@@ -15,6 +15,18 @@ group: [triangle]
 ## LWANDHAKDHALWUDHMLWAs
 $$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$
 ### Proof
+*Use **Base Height** formula
+*Notice how to express the alititude ($$h$$) from B to b:
+$$\sin C = \frac{h}{a}$$, so $$\sin C \cdot a = \frac{h}{a} \cdot \a = h$$
+
+$$
+\begin{align*}
+S_{\triangle ABC} &= \frac{1}{2} \text{base} \cdot \text{height}
+&=\frac{1}{2}b \cdot h
+&= \frac{1}{2} b \cdot \sin C \cdot a
+&=\frac{1}{2}ab\sin C \\
+\end{align*}
+$$
 
 ## Inscribed Circle (Angle Bisectors)
 ### Proof
@@ -54,7 +66,7 @@ Area of triangle = $$\sqrt{s(s-a)(s-b)(s-c)}$$
 ### Proof
 Use 
 * $$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$ (TAKE IT THERE WITH A LINK)
-* Law of Cosine
+* Use [**Law of Cosine**] (trigonometry/law_of_cosine)
 * Use [**Pythagorean Identities**](trigonometry/pythagorean_identities)
 * Notice $$s-a = \frac{a+b+c}{2}-\frac{2a}{2} =  \frac{b+c-a}{2}$$
 

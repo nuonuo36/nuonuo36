@@ -8,5 +8,4 @@ group: [quadratic]
 ## Theorem
 
 $$
-e^{i\theta} = \cos \theta + i\sin \theta
 $$
