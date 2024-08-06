@@ -13,3 +13,5 @@ group: [triangle]
 $$
  \frac{AF}{FB} \cdot \frac{BD}{DC} \cdot \frac{CE}{EA} = 1
 $$
+
+## Proof 

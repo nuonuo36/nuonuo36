@@ -10,3 +10,5 @@ group: [circle]
 $$
 AC \cdot BD = AB \cdot CD + AD \cdot BC
 $$
+
+## Proof 

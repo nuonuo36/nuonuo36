@@ -32,8 +32,8 @@ $$
 ### Proof
 
 
-## Trapezoid
-### Proof
+<!-- ## Trapezoid
+### Proof -->
 
 
 ## Centroid and Medians

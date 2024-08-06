@@ -7,3 +7,4 @@ group: [triangle]
 
 ## Theorem
 
+## Proof 
