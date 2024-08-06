@@ -14,3 +14,4 @@ $$
  \frac{BD}{DC} \cdot \frac{CE}{EA} \cdot \frac{AF}{FB} = 1
 $$
 
+## Proof 

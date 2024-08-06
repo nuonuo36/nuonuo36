@@ -12,3 +12,4 @@ PT_1 \cdot PT_2 = OP^2 - r^2
 $$
 
 
+## Proof 
