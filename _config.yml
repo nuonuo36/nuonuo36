@@ -38,7 +38,7 @@ include:
   - _number_theory
   - _sequence
   - _snoopy's_secret_tricks
-  - algebra
+  - _algebra
   - _probability
 
 search                   : true # true, false (default)

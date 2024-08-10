@@ -87,6 +87,10 @@ probability:
     children:
       - title: "Stars and Bars"
         url: probability/stars_and_bars
+      - title: "Combination"
+        url: probability/combination
+      - title: "Permutation"
+        url: probability/permutation
 algebra:
   - title: Quadratic
     children: 
