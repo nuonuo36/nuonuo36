@@ -4,4 +4,3 @@ permalink: /snoopy's_secret_tricks/
 layout: collection
 collection: snoopy's_secret_tricks
 ---
-

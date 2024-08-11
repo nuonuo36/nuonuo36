@@ -129,6 +129,9 @@ collections:
   probability:
     output: true
     permalink: /:collection/:title/
+  algebra:
+    output: true
+    permalink: /:collection/:title/
 
 # collection_dir: proofs #under folder proofs
 # collectio:cns:
