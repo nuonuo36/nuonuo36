@@ -14,16 +14,17 @@ group: [triangle]
 
 ## LWANDHAKDHALWUDHMLWAs
 $$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$
+
 ### Proof
-*Use **Base Height** formula
-*Notice how to express the alititude ($$h$$) from B to b:
-$$\sin C = \frac{h}{a}$$, so $$\sin C \cdot a = \frac{h}{a} \cdot \a = h$$
+
+* Use **Base Height** formula
+* Notice how to express the alititude $$h$$ from B to b: $$\sin C = \frac{h}{a}$$, so $$ \sin C \cdot a = h $$
 
 $$
 \begin{align*}
-S_{\triangle ABC} &= \frac{1}{2} \text{base} \cdot \text{height}
-&=\frac{1}{2}b \cdot h
-&= \frac{1}{2} b \cdot \sin C \cdot a
+S_{\triangle ABC} &= \frac{1}{2} \text{base} \cdot \text{height} \\ 
+&=\frac{1}{2}b \cdot h \\
+&= \frac{1}{2} b \cdot (\sin C \cdot a) \\
 &=\frac{1}{2}ab\sin C \\
 \end{align*}
 $$
@@ -46,14 +47,17 @@ Area of equilateral triangle = $$\frac{\sqrt{3}}{4}s^2$$
 Use **Pythagorean Theorem** and **30-60-90** special triangle
 
 Let the side-length of an equilateral triangle be $$s$$, so
+
 altitude = a = $$\frac{\sqrt{3}}{2}s$$
+
 base = b = $$s$$
+
 area = A
 
 $$
 \begin{align*}
-A &= \frac{a\cdotb}{2}\\
-&=\frac{\sqrt{3}}{4}s^2
+A &= \frac{a\cdot b}{2} \hspace{1px}\\
+&=\frac{\sqrt{3}}{4}s^2 \\
 \end{align*}
 $$
 
@@ -72,20 +76,20 @@ Use
 
 $$
 \begin{align*}
-S_{\triangle ABC} &= \frac{1}{2}ab\sin C \\
-&= \frac{1}{2}ab \sqrt{1-\cos^2\theta} \text{Use Pythagorean Identity}\\
-&= \frac{1}{2}ab \sqrt{1-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{Use Law of Cosine}\\
-&= \frac{1}{2}ab \sqrt{\frac{(2ab)^2}{(2ab)^2}-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{Simplify}\\
-&= \frac{1}{2}ab \sqrt{\frac{(2ab)^2-(c^2 - a^2 - b)^2}{(2ab)^2}} \text{Simplify}\\
-&= \frac{1}{2}ab \frac{\sqrt{(2ab)^2-(c^2 - a^2 - b)^2}}{2ab} \text{Simplify}\\
-&= \frac{1}{2}ab \frac{\sqrt{(2ab-c^2 + a^2 + b)(2ab+c^2 - a^2 - b)}}{2ab} \text{Use a^2-b^2=(a-b)(a+b)}\\
-&= \frac{1}{2}ab \frac{\sqrt{((a+b)^2-c^2)(c^2-(a+b)^2)}}{2ab} \text{Use (a+b)^2=a^2+2ab+b^2}\\
-&= \frac{1}{2}ab \frac{\sqrt{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}}{2ab} \text{Use a^2-b^2=(a-b)(a+b)}\\
-&= \frac{\sqrt{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}}{4} \text{Simplify}\\
-&= \sqrt{\frac{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}{16}} \text{Simplify}\\
-&= \sqrt{\frac{a+b+c}{2}\frac{a+b-c}{2}\frac{c-a+b}{2}\frac{c+a-b}{2}} \text{Simplify}\\
-&= \sqrt{s(s-c)(s-a)(s-b)} \text{Use **IHWNLIADHSWQI**}\\
+S_{\triangle ABC} &= \frac{1}{2} ab\sin C \\
+&= \frac{1}{2}ab \sqrt{1-\cos^2\theta} \text{ Use Pythagorean Identity}\\
+&= \frac{1}{2}ab \sqrt{1-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{ Use Law of Cosine}\\
+&= \frac{1}{2}ab \sqrt{\frac{(2ab)^2}{(2ab)^2}-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{ Simplify}\\
+&= \frac{1}{2}ab \sqrt{\frac{(2ab)^2-(c^2 - a^2 - b)^2}{(2ab)^2}} \text{ Simplify}\\
+&= \frac{1}{2}ab \frac{\sqrt{(2ab)^2-(c^2 - a^2 - b)^2}}{2ab} \text{ Simplify}\\
+&= \frac{1}{2}ab \frac{\sqrt{(2ab-c^2 + a^2 + b)(2ab+c^2 - a^2 - b)}}{2ab} \text{ Use } a^2-b^2=(a-b)(a+b)\\
+&= \frac{1}{2}ab \frac{\sqrt{((a+b)^2-c^2)(c^2-(a+b)^2)}}{2ab} \text{ Use } (a+b)^2=a^2+2ab+b^2\\
+&= \frac{1}{2}ab \frac{\sqrt{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}}{2ab} \text{ Use } a^2-b^2=(a-b)(a+b)\\
+&= \frac{\sqrt{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}}{4} \text{ Simplify}\\
+&= \sqrt{\frac{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}{16}} \text{ Simplify}\\
+&= \sqrt{\frac{a+b+c}{2}\frac{a+b-c}{2}\frac{c-a+b}{2}\frac{c+a-b}{2}} \text{ Simplify}\\
+&= \sqrt{s(s-c)(s-a)(s-b)} \text{ Use **IHWNLIADHSWQI**}\\
 \end{align*}
 $$
 
-***Note $$a,b,c$$are the sidelengths of a triangle, and $$s=\frac{a+b+c}{2}$$, the semi perimeter***
+***Note $$a,b,c$$ are the sidelengths of a triangle, and $$s=\frac{a+b+c}{2}$$, the semi perimeter***
