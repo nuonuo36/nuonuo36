@@ -32,7 +32,12 @@ geometry:
     children: 
       - title: "Distance Formulas"
         url: geometry/distance_formulas
-      
+  - title: 3D
+    children: 
+      - title: "Volume Formulas"
+        url: geometry/volume_formulas
+
+
 trigonometry:
   - title: Caculation Theorems
     children:
