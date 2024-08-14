@@ -13,11 +13,20 @@ $$
 \sqrt{(x_1-x_2)^2+(y_1-y_2)^2}
 $$
 
+## Proof
+Use **Pythagorean Theory**
+Let Point A be ($$x_1, y_1$$), and Point B be ($$x_2, y_2$$)
+
+
 ## One Point One Line
 
 $$
 \frac{|ax+by+c|}{\sqrt{a^2+b^2}}
 $$
+
+
+
+
 
 ## Two Parallel Lines
 
