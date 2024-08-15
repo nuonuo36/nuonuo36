@@ -67,6 +67,8 @@ number theory:
     children:
       - title: "Fermats Little Theorem"
         url: number_theory/fermats_little
+      - title: "Modular Theorems"
+        url: number_theory/modular_theorems
   - title: complex number
     children:
       - title: "Euler's Theorem"
@@ -75,6 +77,7 @@ number theory:
     children:
       - title: "Useful Theorems"
         url: "number_theory/useful_theorems"
+
 sequence:
   - title: Sequence
     children:
@@ -101,6 +104,10 @@ algebra:
     children: 
       - title: "Vieta's Theorem"
         url: algebra/vieta's_theorem
+  - title: Logarithm
+    children:
+      - title: "Logarithm Theorems"
+        url: "algebra/logarithm_theorems"
   - title: other
     children:
       - title: "Useful Theorems"
