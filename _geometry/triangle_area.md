@@ -12,7 +12,8 @@ group: [triangle]
 ## Base Height
 ### Proof
 
-## LWANDHAKDHALWUDHMLWAs
+## Sine Formula
+
 $$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$
 
 ### Proof
@@ -69,27 +70,60 @@ $$
 Area of triangle = $$\sqrt{s(s-a)(s-b)(s-c)}$$
 ### Proof
 Use 
-* $$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$ (TAKE IT THERE WITH A LINK)
-* Use [**Law of Cosine**] (trigonometry/law_of_cosine)
+* Use [$$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$](#sine-formula)
+* Use [**Law of Cosine**](trigonometry/law_of_cosine)
 * Use [**Pythagorean Identities**](trigonometry/pythagorean_identities)
 * Notice $$s-a = \frac{a+b+c}{2}-\frac{2a}{2} =  \frac{b+c-a}{2}$$
 
+
 $$
 \begin{align*}
-S_{\triangle ABC} &= \frac{1}{2} ab\sin C \\
-&= \frac{1}{2}ab \sqrt{1-\cos^2\theta} \text{ Use Pythagorean Identity}\\
-&= \frac{1}{2}ab \sqrt{1-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{ Use Law of Cosine}\\
+S_{\triangle ABC} &= \frac{1}{2} ab\sin C &\\
+&= \frac{1}{2}ab \sqrt{1-\cos^2\theta} \text{ Use Pythagorean Identity }&\\
+&= \frac{1}{2}ab \sqrt{1-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{ Use Law of Cosine}&\\
+\end{align*}
+
+$$
+
+
+<details>
+<summary>Simplify</summary>
+$$
+\begin{align*}
 &= \frac{1}{2}ab \sqrt{\frac{(2ab)^2}{(2ab)^2}-(\frac{c^2 - a^2 - b^2}{2ab})^2} \text{ Simplify}\\
 &= \frac{1}{2}ab \sqrt{\frac{(2ab)^2-(c^2 - a^2 - b)^2}{(2ab)^2}} \text{ Simplify}\\
 &= \frac{1}{2}ab \frac{\sqrt{(2ab)^2-(c^2 - a^2 - b)^2}}{2ab} \text{ Simplify}\\
+\end{align*}
+$$
+</details>
+
+$$
+\begin{align*}
+
 &= \frac{1}{2}ab \frac{\sqrt{(2ab-c^2 + a^2 + b)(2ab+c^2 - a^2 - b)}}{2ab} \text{ Use } a^2-b^2=(a-b)(a+b)\\
 &= \frac{1}{2}ab \frac{\sqrt{((a+b)^2-c^2)(c^2-(a+b)^2)}}{2ab} \text{ Use } (a+b)^2=a^2+2ab+b^2\\
 &= \frac{1}{2}ab \frac{\sqrt{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}}{2ab} \text{ Use } a^2-b^2=(a-b)(a+b)\\
+
+\end{align*}
+$$
+
+<details>
+<summary>Simplify</summary>
+$$
+\begin{align*}
 &= \frac{\sqrt{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}}{4} \text{ Simplify}\\
 &= \sqrt{\frac{(a+b+c)(a+b-c)(c-a+b)(c+a-b)}{16}} \text{ Simplify}\\
 &= \sqrt{\frac{a+b+c}{2}\frac{a+b-c}{2}\frac{c-a+b}{2}\frac{c+a-b}{2}} \text{ Simplify}\\
+\end{align*}
+$$
+</details>
+
+$$
+\begin{align*}
 &= \sqrt{s(s-c)(s-a)(s-b)} \text{ Use **IHWNLIADHSWQI**}\\
 \end{align*}
 $$
 
 ***Note $$a,b,c$$ are the sidelengths of a triangle, and $$s=\frac{a+b+c}{2}$$, the semi perimeter***
+
+## Shoelace Theorem 
