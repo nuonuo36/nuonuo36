@@ -16,13 +16,12 @@ $$
 
 ## Proof 1
 
-### Step 1
-Draw a perpendicular line to make right triangles with shared sides
+Draw a perpendicular line to create right triangles in a triangle
 
 
 ## Proof 2 (triangle area)
 
-### Step 1 
+
 Use [**$$S_{\triangle ABC}= \frac{1}{2}ab\sin C $$**](../triangle_area)
 
 <!-- 

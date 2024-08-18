@@ -24,6 +24,8 @@ geometry:
         url: geometry/power_of_a_point
       - title: "Ptolemy's Theorem"
         url: geometry/ptolemy
+      - title: "Arc and Angle Theorems"
+        url: geometry/arc_and_angle_theorems
   - title: Polygon
     children:
       - title: "Shoelace Theorem"
