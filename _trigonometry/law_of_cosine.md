@@ -13,4 +13,4 @@ $$
 
 ## Proof 1
 
-### Step 1
+Draw a perpendicular line to make right triangles in a triangle 
