@@ -25,3 +25,30 @@ $$
 \end{tikzpicture}
 $$
 </p>
+
+
+
+<p>
+<script src="https://i.upmath.me/latex.js"></script>
+$$
+\begin{tikzpicture}
+ % Draw the triangle ABC
+\coordinate [label=left:$A$] (A) at (0,0);
+\coordinate [label=right:$B$] (B) at (4,0);
+\coordinate [label=above:$C$] (C) at (2,3);
+\draw [thick] (A) -- (B) -- (C) -- cycle;
+ % Draw the angle bisector AD
+\coordinate[label=right:$D$] (D) at ($(B)!(A)!(C)$);
+\draw[thick, color=red] (A) -- (D);
+ % Label the sides 
+\draw ($(B)!0.5!(C)$) node[above] {$c$};
+\draw ($(A)!0.5!(C)$) node[above] {$b$};
+\draw ($(A)!0.5!(B)$) node[below] {$a$};
+ % Draw right angles
+\draw [color=blue] ($(A)!0.6!(D)$) -- ++(-90:0.2) -- ++(180:0.2) -- ++(90:0.2);
+% Mark the angle bisector
+\node at (1,1.4) [above left] {\textcolor{red}{$\theta$}};
+\node at (3,1.4) [above right] {\textcolor{red}{$\theta$}};
+\end{tikzpicture}
+$$
+</p>
