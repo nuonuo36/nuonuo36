@@ -36,7 +36,6 @@ include:
   - _geometry
   - _trigonometry
   - _number_theory
-  - _sequence
   - _snoopy's_secret_tricks
   - _algebra
   - _probability
@@ -81,13 +80,6 @@ defaults:
         nav: "number_theory"
       toc: true
       layout: layout_proofs 
-  - scope:
-      path: "_sequence"
-    values:
-      sidebar:
-        nav: "sequence"
-      toc: true
-      layout: layout_proofs
   - scope:
       path: "_snoopy's_secret_tricks"
     values:

@@ -38,6 +38,12 @@ geometry:
     children: 
       - title: "Volume Formulas"
         url: geometry/volume_formulas
+  - title: Sequence
+    children:
+      - title: "Arithmetic Sequence"
+        url: sequence/arithmetic_sequence
+      - title: "Geometric Sequence"
+        url: sequence/geometric_sequence
 
 
 trigonometry:
@@ -80,13 +86,6 @@ number theory:
       - title: "Useful Theorems"
         url: "number_theory/useful_theorems"
 
-sequence:
-  - title: Sequence
-    children:
-      - title: "Arithmetic Sequence"
-        url: sequence/arithmetic_sequence
-      - title: "Geometric Sequence"
-        url: sequence/geometric_sequence
 snoopy's_secret_tricks:
   - title: Snoopy's Secret Tricks
     children:
