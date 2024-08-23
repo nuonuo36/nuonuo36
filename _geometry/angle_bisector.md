@@ -32,11 +32,6 @@ $$
 <script src="https://i.upmath.me/latex.js"></script>
 $$
 \begin{tikzpicture}
- % Draw the triangle ABC
-\coordinate [label=left:$A$] (A) at (0,0);
-\coordinate [label=right:$B$] (B) at (4,0);
-\coordinate [label=above:$C$] (C) at (2,3);
-\draw [thick] (A) -- (B) -- (C) -- cycle;
  % Draw the angle bisector AD
 \coordinate[label=right:$D$] (D) at ($(B)!(A)!(C)$);
 \draw[thick, color=red] (A) -- (D);
@@ -49,6 +44,18 @@ $$
 % Mark the angle bisector
 \node at (1,1.4) [above left] {\textcolor{red}{$\theta$}};
 \node at (3,1.4) [above right] {\textcolor{red}{$\theta$}};
+\end{tikzpicture}
+\begin{tikzpicture}
+% Define the vertices of the triangle
+\coordinate [label=left:$A$] (A) at (0,0);
+\coordinate [label=right:$B$] (B) at (4,0);
+\coordinate [label=above:$C$] (C) at (2,3);
+% Draw the sides of the triangle
+\draw [thick] (A) -- (B) -- (C) -- cycle;
+% Optional: Draw the labels on the sides
+\node at (2,-0.3) {$c$};
+\node at (0.7,1.7) {$b$};
+\node at (3.2,1.7) {$a$};
 \end{tikzpicture}
 $$
 </p>
