@@ -10,3 +10,5 @@ group: [complex number]
 $$
 e^{i\theta} = \cos \theta + i\sin \theta
 $$
+
+## Proof
