@@ -38,12 +38,7 @@ geometry:
     children: 
       - title: "Volume Formulas"
         url: geometry/volume_formulas
-  - title: Sequence
-    children:
-      - title: "Arithmetic Sequence"
-        url: sequence/arithmetic_sequence
-      - title: "Geometric Sequence"
-        url: sequence/geometric_sequence
+
 
 
 trigonometry:
@@ -113,3 +108,12 @@ algebra:
     children:
       - title: "Useful Theorems"
         url: "algebra/useful_theorems"
+      - title: "Binomial Theorems"
+        url: "algebra/binomial_theorems"
+
+  - title: Sequence
+    children:
+      - title: "Arithmetic Sequence"
+        url: sequence/arithmetic_sequence
+      - title: "Geometric Sequence"
+        url: sequence/geometric_sequence
