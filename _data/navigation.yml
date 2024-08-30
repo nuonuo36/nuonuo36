@@ -68,13 +68,15 @@ trigonometry:
 number theory:
   - title: modular
     children:
-      - title: "Fermats Little Theorem"
+      - title: "Fermat's Little Theorem"
         url: number_theory/fermats_little
+      - title: "Euler's Theorem"
+        url: number_theory/euler's_theorem
       - title: "Modular Theorems"
         url: number_theory/modular_theorems
   - title: complex number
     children:
-      - title: "Euler's Theorem"
+      - title: "Euler's Formula"
         url: number_theory/euler's_formula
   - title: other
     children:
@@ -86,6 +88,7 @@ snoopy's_secret_tricks:
     children:
       - title: "sup"
         url: snoopy's_secret_tricks/sup
+
 probability:
   - title: Probability
     children:
@@ -95,6 +98,7 @@ probability:
         url: probability/combination
       - title: "Permutation"
         url: probability/permutation
+
 algebra:
   - title: Quadratic
     children: 
@@ -110,7 +114,6 @@ algebra:
         url: "algebra/useful_theorems"
       - title: "Binomial Theorems"
         url: "algebra/binomial_theorems"
-
   - title: Sequence
     children:
       - title: "Arithmetic Sequence"
