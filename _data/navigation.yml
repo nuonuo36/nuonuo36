@@ -39,8 +39,6 @@ geometry:
       - title: "Volume Formulas"
         url: geometry/volume_formulas
 
-
-
 trigonometry:
   - title: Caculation Theorems
     children:
@@ -62,8 +60,6 @@ trigonometry:
         url: trigonometry/law_of_cosine
       - title: "Law of Sine"
         url: trigonometry/law_of_sine
-    
-
 
 number theory:
   - title: modular
