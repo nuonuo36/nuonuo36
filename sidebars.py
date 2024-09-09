@@ -1,7 +1,7 @@
 import os 
 import string
 
-categoryList = ['geometry', 'complex_number', 'number_theory', 'trigonometry','sequence'] # Enter category names here (same as )
+categoryList = ['geometry', 'algebra', 'number_theory', 'trigonometry', 'probability'] # Enter category names here (same as )
 categoryDct = { category :os.listdir(f'_{category}') for category in categoryList}
 
 result = ""
