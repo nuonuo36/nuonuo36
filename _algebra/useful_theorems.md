@@ -19,9 +19,6 @@ now you just have to find the sum and product of a and b!
 
 
 
-## $$(a+b)^n = $$
-* Importantly, **(a+b)^2 = a^2+2ab+c^2**
-
 ## $$a^2-b^2=(a-b)(a+b)$$ and $$a^3 \pm b^3=(a\pm b)(a^2\mp ab+b^2)$$
 
 
