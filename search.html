@@ -14,7 +14,7 @@ layout: default
     
     <script>
         window.store = {
-        {% assign everything = site.geometry | push: site.trigonometry | push: site.number_theory | push: site.complex_number %}
+        {% assign everything = site.geometry | concat: site.trigonometry | concat: site.number_theory | concat: site.algebra | concat: site.probability %}
         {% for post in everything %}
             "{{ post.url | slugify }}": {
             "title": "{{ post.title | xml_escape }}",

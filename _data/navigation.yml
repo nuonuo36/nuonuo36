@@ -8,111 +8,109 @@ main:
 geometry:
   - title: Triangle
     children:
+      - title: "Angle Bisector Theorem"
+        url: geometry/angle_bisector
       - title: "Ceva's Theorem"
         url: geometry/ceva
       - title: "Menalaus' Theorem"
         url: geometry/menalaus
       - title: "Stewart's Theorem"
         url: geometry/stewart
-      - title: "Angle Bisector Theorem"
-        url: geometry/angle_bisector
       - title: "Triangle Area"
         url: geometry/triangle_area
   - title: Circle
     children:
+      - title: "Arc and Angle Theorems"
+        url: geometry/arc_and_angle_theorems
       - title: "Power of a Point"
         url: geometry/power_of_a_point
       - title: "Ptolemy's Theorem"
         url: geometry/ptolemy
-      - title: "Arc and Angle Theorems"
-        url: geometry/arc_and_angle_theorems
+  - title: Euclidean_plane
+    children:
+      - title: "Distance Formulas"
+        url: geometry/distance_formulas
   - title: Polygon
     children:
       - title: "Shoelace Theorem"
         url: geometry/shoelace
-  - title: Euclidean Plane
-    children: 
-      - title: "Distance Formulas"
-        url: geometry/distance_formulas
-  - title: 3D
-    children: 
-      - title: "Volume Formulas"
-        url: geometry/volume_formulas
-
-trigonometry:
-  - title: Caculation Theorems
+  - title: 3d
     children:
-      - title: "Pythagorean Identities"
-        url: trigonometry/pythagorean_identities
+      - title: "Volume Formulas"
+        url: geometry/Volume_formulas
+algebra:
+  - title: Arithmetic
+    children:
+      - title: "Arithmetic Sequence"
+        url: algebra/arithmetic_sequence
+  - title: Powers
+    children:
+      - title: "Binomial Theorem"
+        url: algebra/binomial_theorem
+  - title: Geometric
+    children:
+      - title: "Geometric Sequence"
+        url: algebra/geometric_sequence
+  - title: Logarithm
+    children:
+      - title: "Logarithm Theorems"
+        url: algebra/logarithm_theorems
+  - title: Other
+    children:
+      - title: "Useful Theorems"
+        url: algebra/useful_theorems
+  - title: Quadratic
+    children:
+      - title: "Vieta's Theorem"
+        url: algebra/vieta's_theorem
+number theory:
+  - title: Jbsqjdnalk
+    children:
+      - title: Euclidean Algorithm
+        url: number_theory/euclidean_algorithm
+  - title: Complex Number
+    children:
+      - title: "Euler's Formula"
+        url: number_theory/euler's_formula
+  - title: Modular
+    children:
+      - title: "Euler's Theorem"
+        url: number_theory/euler's_theorem
+      - title: "Fermat's Little Theorem"
+        url: number_theory/fermat's_little
+      - title: "Modular Theorems"
+        url: number_theory/modular_theorems
+  - title: Other
+    children:
+      - title: "Useful Theorems"
+        url: number_theory/useful_theorems
+trigonometry:
+  - title: Calculation
+    children:
       - title: "Angle Addition Theorem"
         url: trigonometry/angle_addition
       - title: "Double Angle Theorem"
         url: trigonometry/double_angle
       - title: "Half Angle Theorem"
         url: trigonometry/half_angle
-      - title: "Sum to Product"
-        url: trigonometry/sum_to_product
       - title: "Product to Sum"
         url: trigonometry/product_to_sum
-  - title: Triangles
+      - title: "Pythagorean Identities"
+        url: trigonometry/pythagorean_identities
+      - title: "Sum to Product"
+        url: trigonometry/sum_to_product
+  - title: Triangle
     children:
       - title: "Law of Cosine"
         url: trigonometry/law_of_cosine
       - title: "Law of Sine"
         url: trigonometry/law_of_sine
-
-number theory:
-  - title: modular
-    children:
-      - title: "Fermat's Little Theorem"
-        url: number_theory/fermats_little
-      - title: "Euler's Theorem"
-        url: number_theory/euler's_theorem
-      - title: "Modular Theorems"
-        url: number_theory/modular_theorems
-  - title: complex number
-    children:
-      - title: "Euler's Formula"
-        url: number_theory/euler's_formula
-  - title: other
-    children:
-      - title: "Useful Theorems"
-        url: "number_theory/useful_theorems"
-
-snoopy's_secret_tricks:
-  - title: Snoopy's Secret Tricks
-    children:
-      - title: "sup"
-        url: snoopy's_secret_tricks/sup
-
 probability:
   - title: Probability
     children:
-      - title: "Stars and Bars"
-        url: probability/stars_and_bars
       - title: "Combination"
         url: probability/combination
       - title: "Permutation"
         url: probability/permutation
-
-algebra:
-  - title: Quadratic
-    children: 
-      - title: "Vieta's Theorem"
-        url: algebra/vieta's_theorem
-  - title: Logarithm
-    children:
-      - title: "Logarithm Theorems"
-        url: "algebra/logarithm_theorems"
-  - title: other
-    children:
-      - title: "Useful Theorems"
-        url: "algebra/useful_theorems"
-      - title: "Binomial Theorems"
-        url: "algebra/binomial_theorems"
-  - title: Sequence
-    children:
-      - title: "Arithmetic Sequence"
-        url: sequence/arithmetic_sequence
-      - title: "Geometric Sequence"
-        url: sequence/geometric_sequence
+      - title: "Stars and Bars"
+        url: probability/stars_and_bars
