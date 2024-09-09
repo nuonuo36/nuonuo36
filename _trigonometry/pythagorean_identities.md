@@ -21,9 +21,9 @@ Using **Pythagorean Theory**
 
 In a right triangle with an acute angle $$\theta$$: WUYNDGKUYWAGNXK
 
-* $o$ = opposite side of $$\theta$$
-* $a$ = adjacent side of $$\theta$$
-* $h$ = hypotenuse of right triangle
+* $$o$$ = opposite side of $$\theta$$
+* $$a$$ = adjacent side of $$\theta$$
+* $$h$$ = hypotenuse of right triangle
 
 $$
 \begin{align*}

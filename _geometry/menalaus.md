@@ -9,6 +9,9 @@ group: [triangle]
 
 ## Theorem
 
+<div style="text-align: center;">
+<img src="../../img/menelaus.svg">
+</div>
 
 $$
  \frac{BD}{DC} \cdot \frac{CE}{EA} \cdot \frac{AF}{FB} = 1
