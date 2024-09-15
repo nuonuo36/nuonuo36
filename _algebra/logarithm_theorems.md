@@ -10,6 +10,7 @@ group: [logarithm]
 $$
 \begin{align}
 \log_{b}MN &=\log_{b}M+\log_{b}N \\
+\log_{b}\frac{M}{N} &=\log_{b}M-\log_{b}N \\
 \log_{N}M &=\frac{log_{b}M}{\log_{b}N} \\
 \log_{a}b\log_{b}c &=\log_{a}c \\
 \log_{a^m}b^n &=\frac{n}{m}\log_{a}b \\
