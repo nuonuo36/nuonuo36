@@ -15,13 +15,15 @@ $$
 \log_{a}b\log_{b}c &=\log_{a}c \\
 \log_{a^m}b^n &=\frac{n}{m}\log_{a}b \\
 \log_{a}b &=\frac{1}{\log_{b}a} \\
+a^{\log_{a}b}&=b\\
 \end{align}
 $$
 
-*note if $$a^b=c$$, then $$\log_{a}c=b$$*
+*note if $a^b=c$, then $\log_{a}c=b$*
 
 ## Proof
 Rewrite exponetially
+
 $$
 \begin{align*}
 b^x=M
