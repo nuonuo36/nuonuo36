@@ -6,11 +6,14 @@ group: [modular]
 ---
 
 
+# Theorems
+
 $$
     a^p \equiv a \pmod{p}
 $$
+
 or 
 
 $$
-    a^(p-1) \equiv 1 \pmod{p}
+    a^{p-1} \equiv 1 \pmod{p}
 $$

@@ -10,6 +10,12 @@ group: [quadratic]
 
 Given $a_nx^n+a_{n-1}x^{n-1}+\dotsb+a_1x+a_0x=0$, let the roots be $r_1,r_2,\dotsc,r_n$.
 
+Sum of all roots:
+$-\frac{a_{n-1}}{a_n}$
+
+Product of all roots:
+$(-1)^n\frac{a_0}{a_n}$
+
 # Proof 1
 
 $$

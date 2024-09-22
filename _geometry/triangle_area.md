@@ -43,7 +43,7 @@ $$
 
 
 ## Equilateral Triangle
-Area of equilateral triangle = $$\frac{\sqrt{3}}{4}s^2$$
+Area of equilateral triangle = $\frac{\sqrt{3}}{4}s^2$
 ### Proof 1 
 Use **Pythagorean Theorem** and **30-60-90** special triangle
 

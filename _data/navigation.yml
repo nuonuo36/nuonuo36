@@ -26,44 +26,43 @@ geometry:
         url: geometry/power_of_a_point
       - title: "Ptolemy's Theorem"
         url: geometry/ptolemy
-  - title: Euclidean_plane
-    children:
-      - title: "Distance Formulas"
-        url: geometry/distance_formulas
+
   - title: Polygon
     children:
       - title: "Shoelace Theorem"
         url: geometry/shoelace
-  - title: 3d
+  - title: Euclidean Plane
+    children:
+      - title: "Distance Formulas"
+        url: geometry/distance_formulas
+  - title: 3D
     children:
       - title: "Volume Formulas"
         url: geometry/Volume_formulas
 algebra:
-  - title: Arithmetic
+  - title: Sequence
     children:
       - title: "Arithmetic Sequence"
         url: algebra/arithmetic_sequence
-  - title: Powers
-    children:
-      - title: "Binomial Theorem"
-        url: algebra/binomial_theorem
-  - title: Geometric
-    children:
       - title: "Geometric Sequence"
         url: algebra/geometric_sequence
+
   - title: Logarithm
     children:
       - title: "Logarithm Theorems"
         url: algebra/logarithm_theorems
-  - title: Other
-    children:
-      - title: "Useful Theorems"
-        url: algebra/useful_theorems
+
   - title: Quadratic
     children:
       - title: "Vieta's Theorem"
         url: algebra/vieta's_theorem
-number theory:
+  - title: Other
+    children:
+      - title: "Binomial Theorem"
+        url: algebra/binomial_theorem
+      - title: "Useful Theorems"
+        url: algebra/useful_theorems
+Number Theory:
   - title: Jbsqjdnalk
     children:
       - title: Euclidean Algorithm
