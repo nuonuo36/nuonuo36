@@ -8,18 +8,18 @@ group: [other]
 ## Setting variables
 
 
-## Use $$a^{2}=b^{2}$$ to prove $$a=b$$
+## Use $a^{2}=b^{2}$ to prove $$a=b$$
 
 ## Changing form of answer
 e.g. if asked for the sum of the reciprocal of a and b:
 $$\frac{1}{a}+\frac{1}{b}=\frac{a+b}{ab}$$
 now you just have to find the sum and product of a and b!
 
-## $$(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ac)$$
+## $(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ac)$
 
 
 
-## $$a^2-b^2=(a-b)(a+b)$$ and $$a^3 \pm b^3=(a\pm b)(a^2\mp ab+b^2)$$
+## $a^2-b^2=(a-b)(a+b)$ and $a^3 \pm b^3=(a\pm b)(a^2\mp ab+b^2)$
 
 
 

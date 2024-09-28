@@ -6,7 +6,7 @@ group: [geometric]
 ---
 
 ## Sum 
-* If $$r$$ > 1:
+* If $r$ > 1:
 
 $$
 \begin{equation}
@@ -14,7 +14,7 @@ S_n = \frac{a_1(1-r^n)}{1-r}
 \end{equation}
 $$
 
-* If -1 < $$r$$ < 1 and $$r \neq  0$$:
+* If -1 < $r$ < 1 and $r \neq  0$:
 
 $$ 
 \begin{equation}

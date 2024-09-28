@@ -3,14 +3,14 @@ title: "Angle Bisector Theorem"
 date: 2024-6-26 17:22:24 +0800
 categories: triangle
 group: [triangle]
+includes: 
+- \usepackage{tikz}
+- \usepackage{pgfplots}
 ---
 
 ## Theorem
 
 ## Proof 
-
-
-
 
 <div style="text-align: center;">
     <script type="text/tikz">
@@ -35,7 +35,6 @@ $$
 $$
 </p>
 
-hi
 
 <p>
 <script src="https://i.upmath.me/latex.js"></script>
