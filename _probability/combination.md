@@ -6,4 +6,4 @@ group: [probability]
 ---
 
 ## When to apply
-When you have one set of $$n$$ **distinguishable** elements, and you want to pick $$k$$ of them **without order**
+When you have one set of $n$ **distinguishable** elements, and you want to pick $k$ of them **without order**
